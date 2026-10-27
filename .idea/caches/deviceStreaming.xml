@@ -184,6 +184,7 @@
           <option name="screenY" value="2160" />
         </PersistentDeviceSelectionData>
         <PersistentDeviceSelectionData>
+<<<<<<< HEAD
           <option name="api" value="35" />
           <option name="brand" value="Lenovo" />
           <option name="codename" value="TB330FU" />
@@ -197,6 +198,8 @@
           <option name="screenY" value="1920" />
         </PersistentDeviceSelectionData>
         <PersistentDeviceSelectionData>
+=======
+>>>>>>> 4a08b9a0230f911d5c5e053ec3b87fa4b2c5e64f
           <option name="api" value="31" />
           <option name="brand" value="TECNO" />
           <option name="codename" value="TECNO-BF6" />
