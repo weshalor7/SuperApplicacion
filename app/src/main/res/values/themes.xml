@@ -2,6 +2,9 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.SupperApplication" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
+        <item name= "colorPrimary">@color/verd_principal</item>
+        <item name="colorSecondary">@color/alertes_o_calories</item>
+        <item name="android:windowBackground">@color/fons_principal</item>
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
