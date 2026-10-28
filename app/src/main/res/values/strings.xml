@@ -11,4 +11,12 @@
     <string name="login_failed">"Login failed"</string>
     <string name="title_activity_edit_item">EditItemActivity</string>
 
+    <string name="titulo_menu_pruebas">MacroSuper - Menú Prototip</string>
+    <string name="btn_ir_onboarding">1. Pantalla Ajuda (Onboarding)</string>
+    <string name="btn_ir_login">2. Pantalla Login</string>
+    <string name="btn_ir_register">3. Pantalla Registre</string>
+    <string name="btn_ir_home">4. Llista Principal (Home)</string>
+    <string name="btn_ir_edit">5. Afegir / Editar Ítem</string>
+    <string name="btn_ir_preferences">6. Preferències</string>
+
 </resources>
