@@ -19,4 +19,10 @@
     <string name="btn_ir_edit">5. Afegir / Editar Ítem</string>
     <string name="btn_ir_preferences">6. Preferències</string>
 
+    <string name="onboarding_logo_desc">Logotip de MacroSuper</string>
+    <string name="onboarding_titulo">Benvingut a MacroSuper</string>
+    <string name="onboarding_subtitulo">Quadra els teus macros a l\'instant al teu súper preferit i estalvia temps i diners.</string>
+    <string name="onboarding_paso">Pas 1 de 3</string>
+    <string name="btn_seguent">Següent</string>
+
 </resources>
