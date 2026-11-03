@@ -12,7 +12,7 @@
     <string name="title_activity_edit_item">EditItemActivity</string>
 
     <string name="titulo_menu_pruebas">MacroSuper - Menú Prototip</string>
-    <string name="btn_ir_onboarding">1. Pantalla Ajuda (Onboarding)</string>
+    <string name="btn_ir_onboarding">Pantalla Ajuda (Onboarding)</string>
     <string name="btn_ir_login">2. Pantalla Login</string>
     <string name="btn_ir_register">3. Pantalla Registre</string>
     <string name="btn_ir_home">4. Llista Principal (Home)</string>
@@ -25,4 +25,11 @@
     <string name="onboarding_paso">Pas 1 de 3</string>
     <string name="btn_seguent">Següent</string>
 
+    <string name="desc_logo">Logotip de MacroSuper</string>
+    <string name="login_title">Iniciar Sessió</string>
+    <string name="hint_email">Correu electrònic</string>
+    <string name="hint_password">Contrasenya</string>
+    <string name="btn_login">Iniciar sessió</string>
+    <string name="btn_register">Registrar-se</string>
+    <string name="btn_guest">Entrar com a convidat</string>
 </resources>
