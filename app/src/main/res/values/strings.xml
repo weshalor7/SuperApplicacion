@@ -32,4 +32,9 @@
     <string name="btn_login">Iniciar sessió</string>
     <string name="btn_register">Registrar-se</string>
     <string name="btn_guest">Entrar com a convidat</string>
+
+    <string name="register_title">Crea un compte</string>
+    <string name="hint_username">Nom d\'usuari</string>
+    <string name="hint_confirm_password">Repeteix la contrasenya</string>
+    <string name="hint_goal">Objectiu nutricional (ex. Guanyar massa)</string>
 </resources>
