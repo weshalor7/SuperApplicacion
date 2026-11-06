@@ -37,4 +37,12 @@
     <string name="hint_username">Nom d\'usuari</string>
     <string name="hint_confirm_password">Repeteix la contrasenya</string>
     <string name="hint_goal">Objectiu nutricional (ex. Guanyar massa)</string>
+
+    <string name="preferences_title">Preferències</string>
+    <string name="pref_vegan">Mode vegà</string>
+    <string name="pref_lactose">Intolerància a la lactosa</string>
+    <string name="pref_supermarkets">Supermercats preferits</string>
+    <string name="super_mercadona">Mercadona</string>
+    <string name="super_lidl">Lidl</string>
+    <string name="super_carrefour">Carrefour</string>
 </resources>
