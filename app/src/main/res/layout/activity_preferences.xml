@@ -5,6 +5,121 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/fons_principal"
+    android:padding="24dp"
     tools:context=".PreferencesActivity">
+
+    <!-- Títol principal -->
+    <TextView
+        android:id="@+id/tvPreferencesTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preferències"
+        android:textColor="@color/blanco"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Secció 1: Ajustaments -->
+    <TextView
+        android:id="@+id/tvSectionNutri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ajustament"
+        android:textColor="@color/naranja_alerta"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/tvPreferencesTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="24dp"/>
+
+    <Switch
+        android:id="@+id/switchVegan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Mode vegà"
+        android:textColor="@color/blanco"
+        android:minHeight="48dp"
+        app:layout_constraintTop_toBottomOf="@id/tvSectionNutri"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Switch
+        android:id="@+id/switchLactose"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Intol. lactosa"
+        android:textColor="@color/blanco"
+        android:minHeight="48dp"
+        app:layout_constraintTop_toBottomOf="@id/switchVegan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <!-- Secció 2: Supermercats -->
+    <TextView
+        android:id="@+id/tvSupermarketsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Supermercats"
+        android:textColor="@color/naranja_alerta"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/switchLactose"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="32dp"/>
+
+    <CheckBox
+        android:id="@+id/cbMercadona"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Mercadona"
+        android:textColor="@color/blanco"
+        android:minHeight="48dp"
+        app:layout_constraintTop_toBottomOf="@id/tvSupermarketsTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp"/>
+
+    <CheckBox
+        android:id="@+id/cbLidl"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Lidl"
+        android:textColor="@color/blanco"
+        android:minHeight="48dp"
+        app:layout_constraintTop_toBottomOf="@id/cbMercadona"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <CheckBox
+        android:id="@+id/cbConsum"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Consum"
+        android:textColor="@color/blanco"
+        android:minHeight="48dp"
+        app:layout_constraintTop_toBottomOf="@id/cbLidl"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Botó de desar al final -->
+    <Button
+        android:id="@+id/btnSavePreferences"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_save"
+        android:minHeight="48dp"
+        app:layout_constraintTop_toBottomOf="@id/cbConsum"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

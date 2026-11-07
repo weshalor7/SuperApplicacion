@@ -45,4 +45,13 @@
     <string name="super_mercadona">Mercadona</string>
     <string name="super_lidl">Lidl</string>
     <string name="super_carrefour">Carrefour</string>
+
+    <string name="edit_item_title">Editar Ítem</string>
+    <string name="hint_item_name">Nom del producte</string>
+    <string name="hint_item_grams">Grams / Quantitat</string>
+    <string name="hint_item_protein">Proteïnes (g)</string>
+    <string name="hint_item_calories">Calories (kcal)</string>
+    <string name="hint_item_price">Preu (€)</string>
+    <string name="btn_save">Desar</string>
+
 </resources>
