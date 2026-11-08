@@ -96,10 +96,10 @@
         android:layout_marginTop="8dp"/>
 
     <CheckBox
-        android:id="@+id/cbConsum"
+        android:id="@+id/cbCarrefour"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Consum"
+        android:text="Carrefour"
         android:textColor="@color/blanco"
         android:minHeight="48dp"
         app:layout_constraintTop_toBottomOf="@id/cbLidl"
@@ -113,7 +113,7 @@
         android:layout_height="wrap_content"
         android:text="@string/btn_save"
         android:minHeight="48dp"
-        app:layout_constraintTop_toBottomOf="@id/cbConsum"
+        app:layout_constraintTop_toBottomOf="@id/cbCarrefour"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="32dp"/>
