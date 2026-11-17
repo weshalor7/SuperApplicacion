@@ -53,5 +53,7 @@
     <string name="hint_item_calories">Calories (kcal)</string>
     <string name="hint_item_price">Preu (€)</string>
     <string name="btn_save">Desar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
