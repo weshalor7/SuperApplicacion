@@ -73,7 +73,7 @@
         android:id="@+id/btnSaveItem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Guardar Canvis"
+        android:text="Guardar canvis"
         android:textColor="@color/fons_principal"
         android:backgroundTint="@color/verde_macrosuper"
         android:minHeight="48dp"

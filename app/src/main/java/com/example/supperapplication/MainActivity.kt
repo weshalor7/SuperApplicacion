@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
             supportFragmentManager.beginTransaction()
                 .replace(R.id.main_fragment, HomeFragment())
                 .commit()
-            supportActionBar?.title = "Inicio"
+            supportActionBar?.title = "Inici"
         }
 
         val bottomNav = findViewById<BottomNavigationView>(R.id.menubottom)
@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
                     supportFragmentManager.beginTransaction()
                         .replace(R.id.main_fragment, HomeFragment())
                         .commit()
-                    supportActionBar?.title = "Inicio"
+                    supportActionBar?.title = "Inici"
                     toggle.setDrawerIndicatorEnabled(true)
                     Log.i("mainactivity", "Cambiado a HomeFragment")
                     true
@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity() {
                         .addToBackStack(null)
                         .setReorderingAllowed(true)
                         .commit()
-                    supportActionBar?.title = "Preferencias"
+                    supportActionBar?.title = "Preferencies"
                     toggle.setDrawerIndicatorEnabled(false)
                     Log.i("mainactivity", "Cambiado a PreferencesFragment")
                     true
@@ -93,14 +93,14 @@ class MainActivity : AppCompatActivity() {
                 supportFragmentManager.beginTransaction()
                     .replace(R.id.main_fragment, HomeFragment())
                     .commit()
-                supportActionBar?.title = "Inicio"
+                supportActionBar?.title = "Inici"
             }
             R.id.nav_preferences -> {
                 supportFragmentManager.beginTransaction()
                     .replace(R.id.main_fragment, PreferencesFragment())
                     .addToBackStack(null)
                     .commit()
-                supportActionBar?.title = "Preferencias"
+                supportActionBar?.title = "Preferencies"
             }
             R.id.nav_profile -> {
                 supportFragmentManager.beginTransaction()
