@@ -1,19 +1,24 @@
 package com.example.supperapplication
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen // <-- 1. Importar la librería oficial
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class OnboardingActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        installSplashScreen()
+
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_onboarding)
 
-        findViewById<android.widget.Button>(R.id.btnSeguentOnboarding). setOnClickListener {
-            startActivity(android.content.Intent(this, LoginActivity::class.java))
+        findViewById<Button>(R.id.btnSeguentOnboarding).setOnClickListener {
+            startActivity(Intent(this, LoginActivity::class.java))
         }
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
