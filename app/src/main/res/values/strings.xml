@@ -58,4 +58,33 @@
     <string name="navigation_drawer_open">Abrir menú de navegación</string>
     <string name="navigation_drawer_close">Cerrar menú de navegación</string>
 
+    <string name="formato_proteina">Prot: %1$s</string>
+    <string name="formato_calorias">Kcal: %1$s</string>
+    <string name="desc_editar_producto">Editar %1$s</string>
+    <string name="desc_borrar_producto">Esborrar %1$s</string>
+    <string name="msg_producto_eliminado">Producte eliminat: %1$s</string>
+
+    <string name="msg_producto_actualizado">Producte actualitzat: %1$s</string>
+    <string name="msg_producto_afegit">Nou producte afegit a la llista</string>
+    <string name="formato_slider_proteina">Proteïna: %1$d g</string>
+    <string name="formato_slider_calorias">Calories: %1$d Kcal</string>
+    <string name="mercadona">Mercadona</string>
+    <string name="carrefour">Carrefour</string>
+    <string name="lidl">Lidl</string>
+    <string name="prote_na_g">Proteïna (g)</string>
+    <string name="afegir_un_nou_producte_a_la_llista">Afegir un nou producte a la llista</string>
+    <string name="pit_de_pollastre_arr_s_integral">Pit de pollastre + Arròs integral</string>
+    <string name="_1_38">1,38 €</string>
+    <string name="prot_35g">Prot: 35g</string>
+    <string name="kcal_403">Kcal: 403</string>
+    <string name="editar">Editar</string>
+    <string name="esborrar">Esborrar</string>
+    <string name="editar_producte">Editar Producte</string>
+    <string name="nom_del_producte_ex_pit_de_pollastre">Nom del producte (ex: Pit de pollastre)</string>
+    <string name="preu">Preu (€)</string>
+    <string name="prote_na_gg">Proteïna (g)</string>
+    <string name="calories_kcal">Calories (kcal)</string>
+    <string name="guardar_canvis">Guardar canvis</string>
+    <string name="cancel_lar">Cancel·lar</string>
+
 </resources>

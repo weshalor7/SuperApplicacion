@@ -1,4 +1,4 @@
-package com.example.supperapplication
+/*package com.example.supperapplication
 
 import android.os.Bundle
 import android.util.Log
@@ -33,4 +33,4 @@ class HomeListActivity : AppCompatActivity() {
             Log.d("MacroSuper", "Event AFEGIR polsat")
         }
     }
-}
+}*/

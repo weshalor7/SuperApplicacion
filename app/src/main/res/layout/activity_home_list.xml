@@ -10,6 +10,7 @@
 
     <LinearLayout
         android:id="@+id/layoutFiltros"
+        style="?android:attr/buttonBarStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -19,21 +20,24 @@
 
         <Button
             android:id="@+id/btnMercadona"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Mercadona"  />
+            android:text="@string/mercadona" />
 
         <Button
             android:id="@+id/btnCarrefour"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Carrefour" />
+            android:text="@string/carrefour" />
 
         <Button
             android:id="@+id/btnLidl"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Lidl" />
+            android:text="@string/lidl" />
     </LinearLayout>
 
 
@@ -50,7 +54,7 @@
             android:id="@+id/tvProteina"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Proteïna (g)"
+            android:text="@string/prote_na_g"
             android:textColor="@color/blanco"
             android:textStyle="bold" />
 
@@ -103,7 +107,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="24dp"
-        android:contentDescription="Afegir un nou producte a la llista"
+        android:contentDescription="@string/afegir_un_nou_producte_a_la_llista"
         android:src="@android:drawable/ic_input_add"
         app:backgroundTint="@color/verde_macrosuper"
         app:tint="@color/fondo_oscuro"

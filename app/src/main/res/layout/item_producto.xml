@@ -27,7 +27,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Pit de pollastre + Arròs integral"
+                android:text="@string/pit_de_pollastre_arr_s_integral"
                 android:textColor="@color/blanco"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -37,7 +37,7 @@
                 android:id="@+id/tvPrecioProducto"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1,38 €"
+                android:text="@string/_1_38"
                 android:textColor="@color/verde_macrosuper"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -57,7 +57,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Prot: 35g"
+                android:text="@string/prot_35g"
                 android:textColor="@color/gris_texto"
                 android:textSize="14sp" />
 
@@ -67,7 +67,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Kcal: 403"
+                android:text="@string/kcal_403"
                 android:textColor="@color/gris_texto"
                 android:textSize="14sp" />
         </LinearLayout>
@@ -88,7 +88,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
                 android:minHeight="48dp"
-                android:text="Editar"
+                android:text="@string/editar"
                 android:textColor="@color/verde_macrosuper"
                 app:strokeColor="@color/verde_macrosuper" />
 
@@ -99,7 +99,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:minHeight="48dp"
-                android:text="Esborrar"
+                android:text="@string/esborrar"
                 android:textColor="@color/naranja_alerta"
                 app:strokeColor="@color/naranja_alerta" />
         </LinearLayout>
